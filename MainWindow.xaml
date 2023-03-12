@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="334.8" Width="620">
     <Grid>
-        <Button x:Name="btnGo" Content="傳送" HorizontalAlignment="Left" Height="50" Margin="241,85,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnGo" Content="傳送" HorizontalAlignment="Left" Height="50" Margin="241,85,0,0" VerticalAlignment="Top" Width="120" Click="BtnGo_Click"/>
         <TextBox x:Name="txtShow" Height="50" Margin="241,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Text="請按下傳送"/>
 
     </Grid>
