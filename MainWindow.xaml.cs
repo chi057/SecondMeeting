@@ -24,5 +24,10 @@ namespace SecondMeeting
         {
             InitializeComponent();
         }
+
+        private void BtnGo_Click(object sender, RoutedEventArgs e)
+        {
+            txtShow.Text = "Hello!Welcome to Visual Studio!";
+        }
     }
 }
